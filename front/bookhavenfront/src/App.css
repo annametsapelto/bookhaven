@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 .mainHeader_logo {
   height: 100px;
   border: 2px solid #7f8c8d;
@@ -7,5 +9,12 @@
 
 .mainHeader {
   border-bottom: 3px solid #7f8c8d;
- font-family: 'EB Garamond', serif; 
+  font-family: 'EB Garamond', serif; 
+  display: flex;
+  align-items: center;
+}
+
+.mainHeader h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 3em;
 }
